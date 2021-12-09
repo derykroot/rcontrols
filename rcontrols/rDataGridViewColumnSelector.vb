@@ -90,7 +90,8 @@
         'e.Graphics.FillRectangle(New SolidBrush(Color.FromArgb(CInt(c.R * 0.9), CInt(c.G * 0.9), CInt(c.B * 0.9))), 1, 1, sender.RowHeadersWidth - 2, sender.ColumnHeadersHeight - 2)
         'e.Graphics.DrawString("Click Left", New Font(FontFamily.GenericSansSerif, 6, FontStyle.Regular), Brushes.White, New Rectangle(1, 1, sender.RowHeadersWidth - 1, sender.ColumnHeadersHeight - 1))
         If e.ColumnIndex = -1 And e.RowIndex = -1 Then
-            e.CellStyle.BackColor = c 'Color.FromArgb(CInt(c.R * 0.9), CInt(c.G * 0.9), CInt(c.B * 0.9))
+            'e.CellStyle.BackColor = c 'Color.FromArgb(CInt(c.R * 0.9), CInt(c.G * 0.9), CInt(c.B * 0.9))
+            e.Graphics.FillRectangle(New SolidBrush(Color.FromArgb(CInt(c.R * 0.8), CInt(c.G * 0.8), CInt(c.B * 0.8))), 1, 1, sender.RowHeadersWidth - 2, sender.ColumnHeadersHeight - 2)
             e.Graphics.DrawString("Click Right", New Font(FontFamily.GenericSansSerif, 7, FontStyle.Regular), Brushes.White, New Rectangle(0, 1, sender.RowHeadersWidth + 1, sender.ColumnHeadersHeight - 1))
             e.Handled = True
         End If

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "rcontrols", "rcontrols\rcontrols.vbproj", "{D04A051A-59D7-4FAC-8D2C-44A0574896B5}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WindowsAppTest", "WindowsAppTest\WindowsAppTest.vbproj", "{7C919718-4448-46AB-9E47-D8219DA7F537}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D04A051A-59D7-4FAC-8D2C-44A0574896B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D04A051A-59D7-4FAC-8D2C-44A0574896B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D04A051A-59D7-4FAC-8D2C-44A0574896B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D04A051A-59D7-4FAC-8D2C-44A0574896B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C919718-4448-46AB-9E47-D8219DA7F537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C919718-4448-46AB-9E47-D8219DA7F537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C919718-4448-46AB-9E47-D8219DA7F537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C919718-4448-46AB-9E47-D8219DA7F537}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {627A44A6-DCD2-41C2-BAE4-AB021AD7137D}
+	EndGlobalSection
+EndGlobal

@@ -89,6 +89,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="rDgvFilterBuilder.vb" />
     <Compile Include="rDgvMenuColumn.vb" />
   </ItemGroup>
   <ItemGroup>
